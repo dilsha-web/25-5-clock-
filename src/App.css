@@ -1,0 +1,62 @@
+.wrapper {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.break-session-length {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.break-session-length h3 {
+  margin-bottom: 5px;
+}
+
+.break-session-length button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.break-session-length button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.timer-wrapper {
+  margin-top: 20px;
+}
+
+.timer {
+  background-color: #316540;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.timer h2 {
+  margin-bottom: 10px;
+}
+
+.timer h3 {
+  font-size: 2em;
+}
+
+#start_stop,
+#reset {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#beep {
+  display: none;
+}
